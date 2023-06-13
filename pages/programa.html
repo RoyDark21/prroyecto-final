@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/programas.css">
+    <title>Organizador de Deudas</title>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+        <div class="header-left">
+          <img src="../img/Deudas.jpg" alt="Logo" />
+        </div>
+        <div class="header-right">
+          <h1 class="texto-con-sombra">Organizador de Deudas</h1>
+        </div>
+    </div>
+  </header>
+        
+  <nav>
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="./programa.html">Programas</a></li>
+      <li><a href="./contactos.html">Contacto</a></li>
+    </ul>
+  </nav>
+  
+  <main class="container">
+    <div class="container-tablas">
+      <h2>Deudas</h2>
+      <table class="my-table">
+        <tr>
+          <th>Tipo de Deuda</th>
+          <th>Monto de Deuda</th>
+        </tr>
+        <tr>
+          <td><input type="text" placeholder="tipo de deuda" name="tipo de deuda" id="deuda"></td>
+          <td><input type="text" placeholder="monto de deuda" name="monto de deuda" id="monto"></td>
+        </tr>
+      </table>
+      <div>
+        <button id="addButton">Agregar Fila</button>
+        
+        <button onclick="sumarMontosDeuda()">Sumar Montos</button>
+      </div>
+      
+      <h2>Ingresos y Total de Deuda</h2>
+      
+      <table class="my-table2">
+        <tr>
+          <th>Ingresos</th>
+          <th>Total de Deuda</th>
+        </tr>
+      
+        <tr>
+          <td><input type="text" placeholder="ingresos" name="ingresos" id="ingresos"></td>
+      
+          <td><input type="text" placeholder="total de deuda" name="total de deuda" id="totalDeuda"></td>
+        </tr>
+      
+      </table> 
+    </div> 
+
+    <div class="container-recomendation">
+
+      <h2>Recomendacion</h2>
+
+      <p>
+        Te brindaremos una sugerencia sobre cómo administrar tus ingresos y deudas en función de tu situación financiera actual. Es importante tener en cuenta que no somos asesores financieros y esta sugerencia no garantiza ser la mejor opción para ti. Recomendamos ampliar tu conocimiento e investigar más a fondo para tomar decisiones informadas acerca de tu situación económica.
+      </p>
+
+      <textarea id="plan-consejo" name="comentario" rows="4" cols="40"></textarea>
+      
+      <input type="submit" value="Aplicar" onclick="generarPrograma()">
+
+    </div>
+  </main>
+
+<script src="../scripts/programa.js"></script>
+
+  <footer>
+    <p>© 2023 Mi Página. Todos los derechos reservados.</p>
+  </footer>
+</body>
+
+</html>

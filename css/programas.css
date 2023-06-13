@@ -1,0 +1,251 @@
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+
+/* Estilos del encabezado */
+
+header {
+  background-color: #3ca09b;
+  color: #c4c70c;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 13px;
+  box-shadow: 0 0 5px rgba(107, 82, 82, 0.5);
+}
+  
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.header-left img {
+  max-width: 100px;
+  height: auto;
+}
+  
+.header-right h1 {
+  margin: 0;
+}
+
+.texto-con-sombra {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
+}
+
+/* Estilos de la barra de navegación */
+
+nav {
+  background-color: #cd7f32;
+  color: #ebdcdc;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 13px;
+  box-shadow: 0 0 5px rgba(107, 82, 82, 0.5);
+
+}
+  
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+  
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+  
+nav ul li a {
+  color: #ebdcdc;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+/* Estilos del contenido principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1px;
+  align-items: center;
+  background-image: url('../img/fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 13px;
+  box-shadow: 0 0 5px rgba(107, 82, 82, 0.5);
+}
+
+.container-montos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  width: 100%; 
+}
+
+.container-recomendation {
+  background-color: rgba(255, 215, 0, 0.2);
+  color: #2134dd;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 13px;
+  box-shadow: 0 0 5px rgba(107, 82, 82, 0.5);
+  width: 400px;
+  text-align: center;
+}
+/* Estilos del contenido principal */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1px;
+  padding: 20px;
+  align-items: center;
+  background-image: url('../img/fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 13px;
+  box-shadow: 0 0 5px rgba(107, 82, 82, 0.5);
+}
+
+.container-montos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  width: 100%; 
+}
+
+.container-recomendation {
+  background-color: rgba(255, 215, 0, 0.2);
+  color: #2134dd;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 13px;
+  box-shadow: 0 0 5px rgba(107, 82, 82, 0.5);
+  width: 400px;
+  text-align: center;
+}
+
+.container-recomendation h2 {
+  margin-top: 0;
+}
+
+.container-recomendation p {
+  margin-bottom: 20px;
+}
+
+.container-recomendation input[type="text"] {
+  width: 150px;
+  height: 100px;
+  padding: 6px;
+  border: 2px solid #c40808;
+  border-radius: 4px;
+}
+
+.container-recomendation input[type="submit"] {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: 2px solid #8d170f;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px yellow;
+}
+
+.container-recomendation input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Estilos de tablas */ 
+
+.my-table, .my-table2 {
+  margin: 15px;
+  width: 90%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+.my-table th, .my-table td {
+  padding: 8px;
+  margin: 10px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+.my-table th {
+  background-color: #af4c4c;
+  color: #ffffff;
+}
+
+.my-table td input[type="text"] {
+  padding: 6px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+
+.my-table2 th, .my-table2 td {
+  padding: 8px;
+  margin: 10px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+.my-table2 th {
+  background-color: #af4c4c;
+  color: #ffffff;
+}
+
+.my-table2 td input[type="text"] {
+  padding: 6px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 0px 10px;
+  border: 2px solid #8d170f;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px yellow;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos del pie de página */
+
+footer {
+  background-color: #ffd700;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 13px;
+  box-shadow: 0 0 5px rgba(107, 82, 82, 0.5);
+}
+  

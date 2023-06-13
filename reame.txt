@@ -1,0 +1,9 @@
+¡Hola! Quiero compartir contigo un proyecto que surgió a raíz de un video que vi en TikTok. En ese momento, no tenía ninguna idea concreta en mente, pero me topé con un video que hablaba sobre cómo pagar deudas. Esa idea resonó en mí y decidí convertirla en un proyecto personal.
+
+Aunque mi tiempo ha estado limitado debido a mi trabajo actual, he logrado desarrollar una base sólida para este proyecto. Actualmente consta de tres archivos HTML, tres archivos CSS y un archivo JavaScript. En el archivo JavaScript, he creado programas que agregan listas y realizan sumatorias en una de las columnas, proporcionando resultados significativos. Además, he incluido una funcionalidad adicional: después de calcular los datos, el programa ofrece sugerencias sobre cómo manejar tus deudas, basadas en uno de los tres programas que he desarrollado.
+
+Aunque aún tengo muchas ideas para implementar y mejorar este proyecto, me gustaría tomarme el tiempo necesario para añadir más funcionalidades y hacerlo aún más completo. Mi objetivo es convertirlo en una herramienta útil y atractiva para aquellos que deseen abordar sus deudas de manera efectiva.
+
+Desarrollar proyectos es un proceso continuo y emocionante. A medida que dedico más tiempo a este proyecto, seguiré agregando nuevas ideas y mejorando lo existente. ¡Estoy emocionado por el potencial que tiene y espero compartir más avances en el futuro!
+
+Si tienes alguna pregunta específica o necesitas ayuda con alguna parte en particular, no dudes en decírmelo. ¡Gracias por tu interés en mi proyecto de pago de deudas y te deseo mucho éxito en tus propias iniciativas financieras!
